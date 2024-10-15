@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url("img2.png") no-repeat ;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    
+}
+
+
+#my-school {
+    color: #fdf9b0;
+    margin-top: 10%;
+    margin-right: 50px;
+    text-decoration: underline;
+    font-size: 60px;
+    text-decoration-color: transparent;
+    margin-left: 7%;
+    cursor: pointer;
+    transition: text-decoration-color 0.4s;
+    
+}
+
+#my-school:hover {
+    text-decoration-color: #fff;
+}
+
+#question {
+    font-weight: bold;
+    background: linear-gradient(to right, #e0f7fa, #0288d1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-left: 15%;
+    margin-top: 10.5%;
+    font-size: 37px;
+    margin-bottom: 30px;
+} 
+
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#blog {
+    line-height: 1.6;
+    font-size: 25px;
+}
+
+#essay {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    height: 450px;
+    
+}
